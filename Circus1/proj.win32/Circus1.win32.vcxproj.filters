@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{5f624021-246a-446c-8cc6-ae96e307bc29}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7d0c97a0-2df0-41c0-892a-9592aede3a89}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{43e385d7-81a4-43cb-8292-360ffaadabf6}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Circus1.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\jumpB.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\jumpB_select.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\leftB.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\leftB_select.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\RightB.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\RightB_select.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Background.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\boy.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\lionRun.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\lion.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Circus1.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="WSMenuItemImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WSMenuItemImage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
